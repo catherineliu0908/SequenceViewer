@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Reader Example</title>
+    <script src="./node_modules/d3/dist/d3.min.js"></script>
+    <script src="./node_modules/cgview/dist/cgview.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/cgview/dist/cgview.css">
+</head>
+<body>
+    <input type="file" id="fileInput"/>
+
+    <div id="my-viewer"></div>
+    <!-- <input type="text" id="nameInput" placeholder="Search by name"/>
+    <button id="searchButton">Search</button> -->
+    <p id ="output"></p>
+    <div class="cgv-controls">
+        <div class="cgv-btn" id="btn-reset" title="Reset Map"></div>
+        <div class="cgv-btn" id="btn-zoom-in" title="Zoom In"></div>
+        <div class="cgv-btn" id="btn-zoom-out" title="Zoom Out"></div>
+        <div class="cgv-btn" id="btn-move-left" title="Move Left/Counterclockwise"></div>
+        <div class="cgv-btn" id="btn-move-right" title="Move Right/Clockwise"></div>
+        <div class="cgv-btn" id="btn-toggle-format" title="Toggle Linear/Circular Format"></div>
+        <div class="cgv-btn" id="btn-invert-colors" title="Invert Map Colors"></div>
+        <div class="cgv-btn" id="btn-random-feature" title="Move to Random Feature"></div>
+        <div class="cgv-btn" id="btn-download" title="Download Map PNG"></div>
+        <div class="cgv-btn" id="btn-toggle-labels" title="Toggle Labels"></div>
+        <div class="cgv-btn" id="btn-animate" title="Start/Stop Animation"></div>
+    </div>
+    <script type="module" src="./index.js"></script>
+    <!-- <script src="./axios.js"></script> -->
+</body>
+</html>
