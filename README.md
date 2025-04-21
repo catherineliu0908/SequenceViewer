@@ -2,7 +2,7 @@ This project aims to generate a Python function, termed show(Genbank), which eve
 webpage featuring a gene map or graphical representation of a GenBank file along with its
 annotations.
 
-If CORS (Cross-Origin Resource Sharing) policy error was encountered, please type the command  as follows in terminal and open Chrome:
+If CORS (Cross-Origin Resource Sharing) policy error was encountered, please type the command  as follows in terminal and open Chrome(in Mac):
 
 open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome -- args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
 
